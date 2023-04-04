@@ -1,113 +1,123 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* Layout */
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  img {
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  }
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 
+.pure-g {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
-  h2{
-    font-size: larger;
-    color: #a7c6da;
-  }
+.custom-row {
+  height: 100%;
+  min-height: 450px;
+  width: auto;
+  background-color: rgb(15, 82, 87);
+}
 
-  .pure-g{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
+.custom-row-small {
+  height: 100%;
+  min-height: 150px;
+  width: auto;
+  background-color: rgb(15, 82, 87);
+}
 
-  .custom-row{
-    height: 100%;
-    min-height: 450px;
-    width: auto;
-    background-color: rgb(15, 82, 87);
-  }
+/* Buttons */
+.custom-button {
+  background-color: #998575;
+  color: white;
+}
 
-  .custom-row-small{
-    height: 100%;
-    min-height: 150px;
-    width: auto;
-    background-color: rgb(15, 82, 87);
-  }
+.btnPast {
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
 
-  .custom-button{
-    background-color: #998575;
-    color: white;
-  }
+/* Typography */
+h2.bandName {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: #a7c6da;
+}
 
-  .btnPast{
-    margin-top: 5px;
-    margin-left: 2px;
-    margin-right: 2px;
-  }
+.title {
+  font-size: 50px;
+}
 
-  h2.bandName{
-    /* font-size: large; */
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-align: center;
-    color: #a7c6da;
-  }
-  .title{
-    font-size: 50px;
-  }
+.title-smaller {
+  font-size: 30px;
+}
 
-  .title-smaller{
-    font-size: 30px;
-  }
+.title-list {
+  margin: 10px;
+  text-align: center;
+}
 
-  .title-list{
-    margin: 10px;
-    text-align: center;
-  }
+h1.title {
+  margin-bottom: 0;
+}
 
-  h1.title{
-    margin-bottom: 0;
-  }
+h2.title-smaller {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
-  h2.title-smaller{
-    /* font-size: large; */
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
+/* Jumbotron */
+.jumbotron {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: #a7c6da;
+}
 
-  .jumbotron{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    color: #a7c6da;
-  
-  }
+/* Events */
+.events {
+  max-height: 450px;
+  color: #0b3142;
+  overflow-y: auto;
+}
 
-  .events{
-    max-height: 450px;
-    color: #0b3142;
-    overflow-y: auto;
-  }
+/* Search Bar */
+.artist-search-bar {
+  text-align: center;
+  vertical-align: middle;
+}
 
-  .artist-search-bar{
-    text-align: center;
-    vertical-align: middle;
-  }
+/* Text */
+p {
+  color: #feefdd;
+}
 
-  p {
-    color: #feefdd;
-  }
-  
-  p.upcomingShows{
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
+p.upcomingShows {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 
-
-  .bandPic{
-    justify-content: center;
-    align-content: center;
-  }
+/* Images */
+.bandPic {
+  justify-content: center;
+  align-content: center;
+}
