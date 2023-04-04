@@ -1,12 +1,14 @@
 # musician-finder
 
 ## Description
+Musician Finder is a web application designed to serve as a central hub for music fans to look up their favorite artists and access information about them. Our current feature set includes displaying an artist's picture, top songs, top albums, and any upcoming tour dates. We are also working on adding lyrics and guitar tabs for the top songs in the near future.
 
-We built this application to act as a hub where music fans can look up their favorite artists and find information about them. Currently, the application will display a picture of the artist, along with their top songs, top albums, and any upcoming tour dates. In the future we plan to add lyrics and guitar tabs for the top songs. This is a useful tool for anyone who wants to learn about any band or artist they like.
+In the process of building this application, our team gained valuable experience working with HTML, CSS, and JavaScript to interact with third-party APIs. We also honed our collaboration skills as a small group, learning how to divide the work effectively and manage a GitHub repository.
 
-In the process of building this application, we learned a lot about how HTML, CSS, and Javascript can interact with each other and with third parties. We also learned how to a small group can best divide the work and share a github repository.
+Try out Musician Finder by visiting our deployed application at: https://reginaldcapanzana.github.io/musician-finder/
+Please note that the site may be temporarily unavailable due to an expired API. We are working to resolve this issue as soon as possible.
 
-Link to deployed application: [Deployed Application](https://reginaldcapanzana.github.io/musician-finder/)
+Thank you for choosing Musician Finder to explore your favorite artists!
 
 ## Usage
 
